@@ -1,0 +1,405 @@
+<Presentation>
+<Slide Transition="Barrido">
+
+<Group  Name="Grupo">
+
+<Rectangulo>
+<Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+</Rectangulo>
+
+<Elipse>
+<Transformations>
+   <TranslateTransformation Delta_X="200" Delta_Y="100"/>
+ <RotateTransformation Angle="45"/>
+</Transformations>
+                   <Background>
+                            <LinearGradienteBrush Color_Ini="Red"/>
+                      </Background>
+</Elipse>
+
+<Group>
+ <Background>
+                            <LinearGradienteBrush Color_Ini="Yellow"/>
+                      </Background>
+<Arrow Begin="50,190" Name="Flecha">
+                        <Transformations>
+                                   <TranslateTransformation  Delta_X="100" Delta_Y="10" />
+                                     <RotateTransformation Angle="45"/>
+                                   
+                          </Transformations>
+                                <Pen>
+                                      <Pluma Widht="5">
+                                               <Stroke>
+                                                         <SolidaBrush Color="Green"/>
+                                               </Stroke>
+                                     </Pluma>
+                                  </Pen>
+                     </Arrow>
+<TextoBox Width="200" FontSize="11" ColorLetter="Black" HorizontalAligment="Right" Name="Texto" Subrayate="true" Height="100">
+
+ <Transformations>
+   <TranslateTransformation Delta_X="20" Delta_Y="250"/>
+
+  </Transformations>
+     <Pen>
+                      <Pluma Widht="2">
+                              <Stroke>
+                                    <SolidaBrush Color="Black"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+Hola Mundo, esto es un programa de la televison cubana
+</TextoBox>
+</Group>
+
+</Group>
+
+
+                       <Background>
+                            <ImagenBrush Source="C:\Users\Usuario\Pictures\Fairyland.jpg"/>
+                      </Background>
+<Pie Central="25,10" Name="Pie">
+<Background>
+                            <SolidaBrush Color="Yellow"/>
+                      </Background>
+<Transformations>
+   <TranslateTransformation Delta_X="200" Delta_Y="00"/>
+ <RotateTransformation Angle="45"/>
+</Transformations>
+
+</Pie>
+
+   <Animations>
+                             <Animation Name_Object="Grupo" Type="Swivel"  Activation="Before">
+                                      <Duration >
+                                               <Time Seg="6"/>
+                                      </Duration>
+                             </Animation>
+
+                             <Animation Name_Object="Pie" Type="Swivel"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="5"/>
+                                   </Duration>
+                             </Animation>
+                           
+                             <Animation Name_Object="Grupo" Type="Fade"  Activation="Before">
+                                    
+                                   <Duration >
+                                          <Time Seg="10"/>
+                                   </Duration>
+                             </Animation>
+                           
+ <Animation Name_Object="Pie" Type="LeftRight"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="10"/>
+                                   </Duration>
+                             </Animation>
+                  </Animations>
+
+</Slide>
+
+              <Slide Transition="Barrido">
+<TextoBox Width="200" FontSize="11" ColorLetter="Black" HorizontalAligment="Right" Name="Texto" Subrayate="true">
+
+ <Transformations>
+   <TranslateTransformation Delta_X="400" Delta_Y="00"/>
+ <RotateTransformation Angle="45"/>
+  </Transformations>
+     <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+Hola Mundo, esto es un programa de la televison cubana
+</TextoBox>
+                             <Background>
+                                        <LinearGradienteBrush Ini="0,0" Fin="1,1" Color_Ini="Blue" Color_Fin="Green"/>
+                             </Background>
+
+                   <Curve StartPoint="60,100" EndPoint="160,100" CurvePoint="100,200" Name="Curva">
+                          <Background>
+                                        <LinearGradienteBrush Ini="0,0" Fin="1,1" Color_Ini="Blue" Color_Fin="Green"/>
+                             </Background>
+                             <Pen>
+                                     <Pluma Widht="5">
+                                               <Stroke>
+                                                       <SolidaBrush Color="Green"/>
+                                               </Stroke>
+                                      </Pluma>
+                            </Pen>
+                          <Transformations>
+                                   <TranslateTransformation  Delta_X="150" Delta_Y="10" />
+                                     <RotateTransformation Angle="45"/>
+                                    <SkewTransformation Factor_X="1" Factor_Y="1"/>
+                          </Transformations>
+                    </Curve>
+
+                   <Arrow Begin="250,150" Name="Flecha">
+                        <Transformations>
+                                   <TranslateTransformation  Delta_X="150" Delta_Y="10" />
+                                     <RotateTransformation Angle="45"/>
+                                   
+                          </Transformations>
+                                <Pen>
+                                      <Pluma Widht="5">
+                                               <Stroke>
+                                                         <SolidaBrush Color="Green"/>
+                                               </Stroke>
+                                     </Pluma>
+                                  </Pen>
+                     </Arrow>
+
+             <Arco Name="Arco" Height="950" Width="100" >          
+                         <Transformations>
+                                 <TranslateTransformation  Delta_X="100" Delta_Y="100" />
+                                     
+                          </Transformations>         
+                  <Pen>
+                         <Pluma Widht="5">
+                               <Stroke>
+                                    <SolidaBrush Color="Red"/>
+                               </Stroke>
+                          </Pluma>
+                  </Pen>
+                     <Background>
+                                        <LinearGradienteBrush Ini="0,0" Fin="1,1" Color_Ini="Blue" Color_Fin="Green"/>
+                             </Background>
+             </Arco>
+
+            <Pie Name="Pastel" Central="50,220" Position="-150,100">      
+ <Transformations>
+                                 <TranslateTransformation  Delta_X="100" Delta_Y="0" />
+                                     
+                          </Transformations>                     
+                  <Pen>
+                         <Pluma Widht="5">
+                               <Stroke>
+                                    <SolidaBrush Color="Blue"/>
+                               </Stroke>
+                          </Pluma>
+                  </Pen>
+                   <Background>
+                            <LinearGradienteBrush Ini="0,0" Fin="1,1" Color_Ini="Blue" Color_Fin="Red"/>
+                      </Background>
+             </Pie>
+
+                  <Animations>
+                             <Animation Name_Object="Pastel" Type="LeftRight"  Activation="Before">
+                                      <Duration >
+                                               <Time Seg="2"/>
+                                      </Duration>
+                             </Animation>
+
+                             <Animation Name_Object="Flecha" Type="Swivel"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="2"/>
+                                   </Duration>
+                             </Animation>
+                             <Animation Name_Object="Curva" Type="GrowTurn"  Activation="After" />
+                             <Animation Name_Object="Pastel" Type="Spin" Activation="Before"/>
+                             
+                           
+                  </Animations>
+             </Slide>
+
+          <Slide Transition="Empuje">
+
+               <Background>
+                      <LinearGradienteBrush Ini="0,0" Fin="1,1" Color_Ini="Red" Color_Fin="Yellow"/>
+              </Background>
+
+         <Group Name="Grupo">
+
+             <Background>
+                   <SolidaBrush Color="Blue" />
+              </Background>
+
+             <Rectangulo Position="200,10" >
+                 
+                  <Pen>
+                         <Pluma Widht="5">
+                               <Stroke>
+                                    <SolidaBrush Color="Red"/>
+                               </Stroke>
+                          </Pluma>
+                  </Pen>
+             </Rectangulo>
+
+           <Elipse Position="50,150">
+                 <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+            </Elipse>
+<Transformations>
+<TranslateTransformation Delta_X="100"/>
+</Transformations>
+
+         </Group>
+
+           <Pie Central="50,50" Width="180" Height="100" Name="Pastel">
+  <Background>
+                     <RadialGradienteBrush Color_Ini="Green"  Center="1,0"/>
+  </Background>
+ </Pie>
+
+ <Curve Name="Curva" StartPoint="30,40" EndPoint="100,100" CurvePoint="30,200">
+  <Transformations>
+   <TranslateTransformation Delta_X="100" Delta_Y="100"/>
+  </Transformations>
+  <Background>
+   <LinearGradienteBrush Color_Ini="Red" Color_Fin="Blue"/>
+  </Background>
+ </Curve>
+
+               <Animations>
+                             <Animation Name_Object="Pastel" Type="Zoom"  Activation="Before">
+                                      <Duration >
+                                               <Time Seg="5"/>
+                                      </Duration>
+                             </Animation>
+
+                             <Animation Name_Object="Pastel" Type="BottomUp"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="5"/>
+                                   </Duration>
+                             </Animation>
+
+                            <Animation Name_Object="Grupo" Type="Zoom"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="5"/>
+                                   </Duration>
+                             </Animation>
+
+ <Animation Name_Object="Curva" Type="Zoom" Activation="Click"/>
+ <Animation Name_Object="Texto" Type="Swivel" Activation="After"/>
+ <Animation Name_Object="Poligono" Type="LeftRight" Activation="Click"/>
+                                                         
+                  </Animations>
+
+                 <Polygono Points="10,10 80,80 10,120" Name="Poligono">
+ <Transformations>
+   <TranslateTransformation Delta_X="400" Delta_Y="100"/>
+  </Transformations>
+                       <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+               </Polygono>
+
+<TextoBox Width="200" FontSize="11" ColorLetter="Black" HorizontalAligment="Right" Name="Texto">
+  <Background>
+   <LinearGradienteBrush Color_Ini="Red" Color_Fin="Blue"/>
+  </Background>
+ <Transformations>
+   <TranslateTransformation Delta_X="250" Delta_Y="40"/>
+<RotateTransformation Angle="45"/>
+  </Transformations>
+     <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+Hola Mundo, esto es un programa de la televison cubana
+</TextoBox>
+</Slide>
+
+ <Slide>
+ <Background>
+     <RadialGradienteBrush Color_Ini="Green" Color_Fin="Orange" RadiusX="1" RadiusY="1"/>
+    </Background>
+  <Group Name="Grupo">
+   <Arrow Name="Arrow" Height="100" Width="100">
+    <Background>
+     <RadialGradienteBrush Color_Ini="Green" Color_Fin="Orange"/>
+    </Background>
+     <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Green"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+   </Arrow>
+<Elipse Center="150,50" Height="160">
+<Background>
+<SolidaBrush Color="AliceBlue"/>
+</Background>
+</Elipse>
+  </Group>
+
+<Rectangulo Height="150" Width="100" Name="Rectangulo">
+     <Pen>
+                      <Pluma Widht="5">
+                              <Stroke>
+                                    <SolidaBrush Color="Black"/>
+                              </Stroke>
+                      </Pluma>
+                 </Pen>
+<Transformations>
+<TranslateTransformation Delta_X="150" Delta_Y="100" />
+<RotateTransformation Angle="45"/>
+<SkewTransformation Factor_X="0"/>
+</Transformations>
+</Rectangulo>
+
+<Arrow Name="Arrow" Height="100" Width="100">
+<Transformations>
+<TranslateTransformation Delta_X="350" Delta_Y="50"/>
+
+</Transformations>
+<Background>
+<ImagenBrush Source="C:\Users\Usuario\Pictures\Catching.jpg"/>
+</Background>
+   
+   </Arrow>
+
+<Polygono Points="100,100 200,200 250,200" Name="Triangulo">
+<Transformations>
+<TranslateTransformation Delta_X="120" Delta_Y="-50"/>
+</Transformations>
+</Polygono>
+
+  <Animations>
+                             <Animation Name_Object="Grupo" Type="LeftRight"  Activation="Before">
+                                      <Duration >
+                                               <Time Seg="2"/>
+                                      </Duration>
+                             </Animation>
+
+                             <Animation Name_Object="Rectangulo" Type="Swivel"  Activation="After">
+                                    
+                                   <Duration >
+                                          <Time Seg="2"/>
+                                   </Duration>
+                             </Animation>
+                            
+                             <Animation Name_Object="Triangulo" Type="LeftRight" Activation="Before"/>
+                             <Animation Name_Object="Arrow" Type="Swivel" Activation="Click"/>
+                           
+                  </Animations>
+
+ </Slide>
+
+</Presentation> 
